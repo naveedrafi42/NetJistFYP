@@ -6,7 +6,7 @@ function httpGet(theUrl)
     xmlHttp.open( "GET", theUrl, false );
     xmlHttp.send( null );
 	
-	//document.write("hello")
+
     document.write (xmlHttp.responseText);
 }
 /*(function(){
